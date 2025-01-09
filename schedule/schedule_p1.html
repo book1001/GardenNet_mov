@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title></title>
+  <base target="_blank">
+  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="schedule.css">
+  <link rel="stylesheet" href="schedule_p.css">
+
+  <style>
+    .fc-view-harness, .fc-view-harness-active {
+      height: 1000px !important;
+    }
+    .fc * {
+      max-height: 1000px !important;
+    }
+
+    /* No Class */
+    #fc-dom-44 {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      color: white;
+      background: black;
+      z-index: -1;
+    }
+
+    /* Tablet */
+    @media only screen and (max-width:600px) {
+      .fc-day-mon {
+        width: 50%;
+      }
+      .fc-day-wed {
+        display: none;
+      }
+    }
+  </style>
+</head>
+  
+<body>
+  <div id="schedule-p1"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.10/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@6.1.10/index.global.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@6.1.10/index.global.min.js"></script>
+  <script src="schedule_p1.js"></script>
+
+</body>
+</html>
