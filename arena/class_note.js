@@ -1,5 +1,5 @@
 // let slug = 'form-making-workshops-typeface';
-let slug = 'soft-class-note';
+let slug = 'motion-class-note-q1czqrryzgc';
 
 let page = 1; // Initialize the page number
 
